@@ -64,7 +64,7 @@ set(
     THIRD_PARTY_SRC_FILES
     ${IMGUI_SRC_FILES}
     third-party/${GLAD_DIR}/src/glad.c
-)
+        apps/gltf-viewer/utils/GBuffer.cpp apps/gltf-viewer/utils/GBuffer.hpp apps/gltf-viewer/utils/SSAO.cpp apps/gltf-viewer/utils/SSAO.hpp)
 
 set(
     LIBRARIES
